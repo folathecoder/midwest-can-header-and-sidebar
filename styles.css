@@ -76,12 +76,15 @@ header {
         max-width: 95%;
         min-height: 70px;
         margin: 0px auto;
-        /* background-color:yellow; */
         display: flex;
         align-items: center;
     }
     .logo {
         flex: 1;
+    }
+    .logo img {
+        height: 60px;
+        width: auto;
     }
     nav {
         flex: 6;
