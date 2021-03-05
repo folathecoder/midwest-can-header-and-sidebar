@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    $('.burgericon').on('click', function(e){
+    $('.burgericon').on('click', function(){
         $('.nav-menu').slideToggle();
     })
-    e.stopPropagation();
   });
